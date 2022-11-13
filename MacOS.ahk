@@ -25,12 +25,10 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #q:: SendInput !{f4} ; 关闭窗口
 
 ; Jetbrains 快捷键
-#o:: SendInput !o
-+#o:: SendInput !+o
-#[:: SendInput ![
-#]:: SendInput !]
-+#[:: SendInput !+[
-+#]:: SendInput !+]
-#/:: SendInput !/
-+#/:: SendInput !+/
-
+#o:: SendInput !o ; Go to Class...
++#o:: SendInput !+o ; Go to File...
+#[:: SendInput ![ ; Back
+#]:: SendInput !] ; Forward
+#/:: SendInput !/ ; Comment with Line Comment
++#/:: SendInput !+/ ; Comment with Block Comment
+#b:: SendInput !b ; Go to Declaration or Usages (cmd click)
