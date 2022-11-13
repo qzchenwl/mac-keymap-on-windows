@@ -18,13 +18,19 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #g:: SendInput ^g ; FindNext
 +#g:: SendInput ^+g ; FindPrevious
 #w:: SendInput ^w ; 关闭标签页
-#t:: SendInput ^t
-+#t:: SendInput ^+t
+#t:: SendInput ^t ; 新标签页
++#t:: SendInput ^+t ; 打开关闭的标签页
+#p:: SendInput ^p ; 打印
+#l:: SendInput ^l ; 聚焦地址栏
+#q:: SendInput !{f4} ; 关闭窗口
 
 ; Jetbrains 快捷键
 #o:: SendInput !o
 +#o:: SendInput !+o
 #[:: SendInput ![
 #]:: SendInput !]
-+#[:: SendInput ^+[
-+#]:: SendInput ^+]
++#[:: SendInput !+[
++#]:: SendInput !+]
+#/:: SendInput !/
++#/:: SendInput !+/
+
