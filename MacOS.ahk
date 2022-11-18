@@ -12,7 +12,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #z:: SendInput ^z ; 撤销
 +#z:: SendInput ^+z ; 重做
 #f:: SendInput ^f ; 查找
-+#f:: SendInput ^+f ; FindInPath
 #r:: SendInput ^r ; 替换
 +#r:: SendInput ^+r ; ReplaceInPath
 #g:: SendInput ^g ; FindNext
@@ -32,3 +31,4 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #/:: SendInput !/ ; Comment with Line Comment
 +#/:: SendInput !+/ ; Comment with Block Comment
 #b:: SendInput !b ; Go to Declaration or Usages (cmd click)
++#f:: SendInput !+f ; FindInPath

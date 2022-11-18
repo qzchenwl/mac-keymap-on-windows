@@ -45,6 +45,7 @@
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="alt 9" />
   </action>
+  <action id="AddToFavoritesPopup" />
   <action id="Adtui.ZoomInAction">
     <keyboard-shortcut first-keystroke="meta equals" />
     <keyboard-shortcut first-keystroke="meta add" />
@@ -134,6 +135,9 @@
   </action>
   <action id="Diff.PrevChange">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
+  </action>
+  <action id="Django.RunManageTaskAction">
+    <keyboard-shortcut first-keystroke="alt r" />
   </action>
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="alt down" />
@@ -258,6 +262,10 @@
   <action id="EmojiAndSymbols">
     <keyboard-shortcut first-keystroke="ctrl alt space" />
   </action>
+  <action id="ExecuteInPyConsoleAction">
+    <keyboard-shortcut first-keystroke="shift alt e" />
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
   <action id="Exit">
     <keyboard-shortcut first-keystroke="alt q" />
   </action>
@@ -304,7 +312,7 @@
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="FindInPath">
-    <keyboard-shortcut first-keystroke="shift ctrl f" />
+    <keyboard-shortcut first-keystroke="shift alt f" />
   </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="ctrl g" />
